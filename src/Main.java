@@ -2,11 +2,41 @@ public class Main {
 
     public static void main(String[] args) {
 
+//        POLYMORPHISM
+
+//        CAR EXAMPLE
+
+        Car car = new Car("rav4", 4, 16000);
+        Escape escape = new Escape();
+        CRV crv = new CRV();
+        crv.accelerate(65);
+        crv.brake(5);
+//        car.accelerate(65);
+//        car.brake(5);
+
+//        for(int i=1; i<11; i++){
+//            Movie movie = Polymorphism.randomMovie();
+//            System.out.println("Movie #" + i +
+//                    " : " + movie.getName() + "\n" +
+//                    "Plot: " + movie.plot() + "\n");
+//        }
+
 //        ENCAPSULATION
 
+//        CHALLENGE
+
+//        Printer printer = new Printer(2, 50, true);
+//
+//        System.out.println(printer.getTonerLevel());
+//        printer.setTonerLevel(50);
+//        System.out.println(printer.getTonerLevel());
+//
+//        printer.fillUpToner(8);
+//        System.out.println(printer.getTonerLevel());
+
 //        GOOD WAY!!!
-        Player player = new Player("Daniel", 200, "Sword");
-        System.out.println("Initial health is " + player.getHealth());
+//        Player player = new Player("Daniel", 200, "Sword");
+//        System.out.println("Initial health is " + player.getHealth());
 
 //        BAD BAD WAY
 //        Player player = new Player();
